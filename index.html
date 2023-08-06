@@ -16,11 +16,66 @@
     ></script>
     <link
       rel="stylesheet"
-      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="/src/style.css" />
     <script src="/src/scripts.js"></script>
   </head>
-  <body></body>
+  <body class="img-fluid">
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item pe-5">
+              <a
+                class="nav-link active text-decoration-underline"
+                aria-current="page"
+                href="/menu/home.html"
+                >Homepage</a
+              >
+            </li>
+            <li class="nav-item pe-5">
+              <a class="nav-link" href="/menu/work.html">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/menu/about.html">About Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="moon">
+        <img src="/img/cloud.png" id="cloud" alt="cloud" />
+        <div class="row">
+          <div class="hero">
+            <div class="hero-text col-12">
+              <h1>Carla Jimenez</h1>
+              <h3>Lv.20 Front-end developer</h3>
+            </div>
+          </div>
+          <div class="row button-contact">
+            <a class="col-5" id="button-contact" href="#">Contact Me</a>
+          </div>
+        </div>
+        <img src="/img/cloud2.png" id="cloud2" alt="cloud" />
+      </div>
+    </div>
+  </body>
 </html>
