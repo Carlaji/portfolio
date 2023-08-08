@@ -37,7 +37,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 100px;
+
   padding-top: 77px;
 }
 h3 {
@@ -46,7 +46,7 @@ h3 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  margin-left: 100px;
+
   padding-top: 20px;
 }
 
@@ -59,7 +59,9 @@ h3 {
   padding-top: 210px;
   margin-top: -154px;
 }
-
+.hero-text {
+  margin-left: 171px;
+}
 .hero img {
   transform: scaleX(-1);
   display: block;
@@ -80,17 +82,17 @@ h3 {
   background-image: url("/img/button.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
+  text-align: center;
   height: 105px;
   font-family: var(--heading-font-family);
   color: #222;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
-  margin-left: 147px;
+  margin-left: 20px;
   padding-top: 43px;
-  padding-left: 53px;
 }
 
 .moon {
@@ -98,18 +100,38 @@ h3 {
   background-repeat: no-repeat;
   background-position-y: 150px;
   background-position-x: center;
-  background-size: contain;
 }
 
+@media (max-width: 1400px) {
+  .hero-text {
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-text {
+    margin-left: 0px;
+  }
+
+  @media (max-width: 1000px) {
+    .hero {
+      background-image: url(/img/square-mob.png);
+      background-position-y: center;
+      background-size: contain;
+    }
+
+    h1 {
+      padding-top: 0px;
+    }
+  }
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 28px;
-    margin-left: 0px;
     padding-top: 10px;
   }
   h3 {
     font-size: 15px;
-    margin-left: 0px;
     padding-top: 10px;
   }
   .hero {
@@ -129,5 +151,13 @@ h3 {
   }
   .button-contact {
     margin-top: 0px;
+  }
+
+  .moon {
+    background-size: contain;
+  }
+
+  #button-contact {
+    margin-left: 0px;
   }
 }
