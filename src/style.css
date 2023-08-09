@@ -37,7 +37,6 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
   padding-top: 77px;
 }
 h3 {
@@ -48,6 +47,17 @@ h3 {
   line-height: normal;
 
   padding-top: 20px;
+}
+
+h2 {
+  color: #222;
+  text-shadow: 10px 8px 4px rgba(255, 255, 255, 0.83);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: underline;
+  line-height: normal;
 }
 
 .hero {
@@ -67,7 +77,21 @@ h3 {
   display: block;
 }
 .button-contact {
-  margin-top: 115px;
+  margin-top: 58px;
+}
+.moon {
+  background-image: url(/img/moon.png);
+  background-repeat: no-repeat;
+  background-position-y: 150px;
+  background-position-x: center;
+}
+.home-project {
+  padding-top: 100px;
+  opacity: 0.5;
+}
+
+.active {
+  opacity: 1;
 }
 #cloud {
   height: 250px;
@@ -93,13 +117,6 @@ h3 {
   text-decoration: none;
   margin-left: 20px;
   padding-top: 43px;
-}
-
-.moon {
-  background-image: url(/img/moon.png);
-  background-repeat: no-repeat;
-  background-position-y: 150px;
-  background-position-x: center;
 }
 
 @media (max-width: 1400px) {
