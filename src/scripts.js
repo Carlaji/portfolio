@@ -35,3 +35,27 @@ function goTogithub() {
 }
 let github = document.querySelector("#github");
 github.addEventListener("click", goTogithub);
+
+//HOMEPAGE found me animation
+function clickBox() {
+  let box = document.querySelector("#box");
+  let found = document.querySelector("#found-title");
+  box.style.transform = "rotate(10deg)";
+
+  setTimeout(() => {
+    box.style.transform = "rotate(-10deg)";
+  }, 1000);
+  setTimeout(() => {
+    instagram.hidden = false;
+    linkedin.hidden = false;
+    github.hidden = false;
+    box.style.transform = "rotate(0deg)";
+    found.innerHTML = "Found Me";
+  }, 3000);
+}
+
+instagram.hidden = true;
+linkedin.hidden = true;
+github.hidden = true;
+let box = document.querySelector("#box");
+box.addEventListener("click", clickBox);
