@@ -59,7 +59,13 @@ h2 {
   text-decoration: underline;
   line-height: normal;
 }
-
+footer {
+  background: linear-gradient(
+    94deg,
+    rgba(120, 149, 203, 0) 23.96%,
+    rgba(10, 37, 89, 0.61) 70.83%
+  );
+}
 .hero {
   background-image: url("/img/square.png");
   background-repeat: no-repeat;
@@ -82,16 +88,63 @@ h2 {
 .moon {
   background-image: url(/img/moon.png);
   background-repeat: no-repeat;
-  background-position-y: 150px;
+  background-position-y: 120px;
   background-position-x: center;
 }
 .home-project {
   padding-top: 100px;
   opacity: 0.5;
+  transition: all 200ms ease-in-out;
 }
 
 .active {
   opacity: 1;
+}
+
+.found-me {
+  margin-top: 200px;
+}
+.foundmeIcon {
+  width: 75px;
+  margin-left: -457px;
+}
+.found-icon {
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 70px 0;
+}
+
+.found-box {
+  max-width: 300px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-link {
+  color: white;
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: 300;
+  transition: all 200ms ease-in-out;
+}
+.menu-link:hover {
+  color: #dff6f0;
+  font-weight: 500;
+}
+
+.footer {
+  margin-top: 160px;
+  padding: 80px 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 #cloud {
   height: 250px;
