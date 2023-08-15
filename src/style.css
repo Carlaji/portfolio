@@ -287,6 +287,17 @@ footer {
   .hero-text {
     margin-left: 80px;
   }
+  .about-image {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .languages {
+    visibility: hidden;
+  }
+  .foundmeIcon {
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 1200px) {
