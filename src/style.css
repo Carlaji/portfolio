@@ -424,11 +424,18 @@ footer {
     font-size: 35px;
     font-weight: 500;
   }
+  .menu {
+    padding: 0;
+  }
   .contact {
     align-items: center;
     display: flex;
     text-align: center;
     margin: 90px 0;
+    padding: 0;
+  }
+  .footer {
+    margin: 160px 0;
   }
   .contact a {
     font-size: 25px;
