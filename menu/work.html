@@ -20,7 +20,103 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="/src/style.css" />
-    <script src="/src/scripts.js"></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item pe-5">
+                <a class="nav-link" aria-current="page" href="/menu/home.html"
+                  >Homepage</a
+                >
+              </li>
+              <li class="nav-item pe-5">
+                <a
+                  class="nav-link active text-decoration-underline"
+                  href="/menu/work.html"
+                  >My Work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/menu/about.html">About Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="works">
+      <div class="container">
+        <h1 class="work-title text-center">My Work</h1>
+      </div>
+    </section>
+    <footer>
+      <div class="row footer">
+        <div
+          class="col-lg-4 col logo d-flex justify-content-center d-none d-sm-block"
+        >
+          <img src="/img/logo.png " alt="logo" class="img-fluid" />
+        </div>
+        <div class="col-lg-4 col-ms-12 menu">
+          <a href="/menu/home.html" class="menu-link text-decoration-underline"
+            >Homepage</a
+          >
+          <a href="/menu/work.html" class="menu-link mt-5">My Work</a>
+          <a href="/menu/about.html" class="menu-link mt-5">About Me</a>
+        </div>
+        <div class="col-lg-4 col-ms-12 contact">
+          <div class="row">
+            <img
+              src="/img/mail.png"
+              alt="mail icon"
+              class="col-lg-5 col-ms-12"
+            />
+            <a href="mailto:carlajisi4@gmail.com" class="col-lg-7 col-ms-12"
+              >carlajisi4@gmail.com</a
+            >
+          </div>
+          <div class="row mt-5">
+            <img
+              src="/img/insta-footer.png"
+              alt="instagram icon"
+              class="col-lg-5 col-ms-12"
+            />
+            <a
+              href="https://instagram.com/carla.byte?igshid=OGQ5ZDc2ODk2ZA=="
+              class="col-lg-7 col-ms-12"
+              >@carla.byte</a
+            >
+          </div>
+          <div class="row mt-5">
+            <img
+              src="/img/github.png"
+              alt="Github icon"
+              class="col-lg-5 col-ms-12"
+            />
+            <a href="https://github.com/Carlaji" class="col-lg-7 col-ms-12"
+              >@CarlaJi</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/src/scripts.js"></script>
+  </body>
 </html>
