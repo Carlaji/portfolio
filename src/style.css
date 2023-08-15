@@ -298,6 +298,10 @@ footer {
   .foundmeIcon {
     visibility: hidden;
   }
+  .about-hero-text {
+    text-align: start;
+    margin-left: 120px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -319,9 +323,7 @@ footer {
     margin: 0 auto;
     max-width: 100px;
   }
-  .menu a {
-    font-size: 30px;
-  }
+
   .about-hero-text {
     text-align: start;
     margin-left: 30px;
