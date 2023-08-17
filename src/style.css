@@ -185,7 +185,7 @@ footer {
   margin-top: 90px;
   color: #fff;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 500;
   line-height: 45px;
@@ -278,6 +278,25 @@ footer {
 }
 .start-menu {
   margin-top: 100px;
+  .start-link {
+    font-family: var(--heading-font-family);
+    text-shadow: 10px 8px 4px rgba(255, 255, 255, 0.83);
+    font-family: Press Start 2P;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    transition: all 200ms ease-in-out;
+    height: 50px;
+  }
+  .start-link:hover {
+    color: white;
+    background-color: #00000056;
+    text-shadow: 10px 8px 4px rgba(26, 25, 25, 0.83);
+  }
 }
 #start {
   background-image: url(/img/portfolio-background.png);
@@ -286,24 +305,18 @@ footer {
 
   margin: 200px 0;
 }
-#start a {
-  font-family: var(--heading-font-family);
-  text-shadow: 10px 8px 4px rgba(255, 255, 255, 0.83);
-  font-family: Press Start 2P;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  color: #000;
+
+#repository {
+  font-family: var(--default-font-family);
+  color: black;
   text-decoration: none;
-  text-align: center;
-  transition: all 200ms ease-in-out;
-  height: 50px;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0px;
+  cursor: pointer;
 }
-#start a:hover {
+#repository:hover {
   color: white;
-  background-color: #00000056;
-  text-shadow: 10px 8px 4px rgba(26, 25, 25, 0.83);
 }
 
 @media (max-width: 1400px) {
