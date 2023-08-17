@@ -215,6 +215,29 @@ footer {
   background-size: contain;
   height: 200px;
   font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 10px;
+  border: 2px solid #ffffffbd;
+  background: rgba(99, 137, 196, 0.36);
+  box-shadow: 5px 5px 5px 0px #000;
+}
+.work-card-title {
+  text-align: start;
+  text-decoration: none;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+  text-shadow: none;
+}
+
+.card-text {
+  font-size: 20px;
 }
 #cloud {
   height: 250px;
@@ -345,6 +368,11 @@ footer {
     font-weight: 500;
     margin-top: 40px;
   }
+  .work-photo {
+    object-fit: cover;
+    height: 400px;
+    object-position: -100px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -427,6 +455,9 @@ footer {
   .menu {
     padding: 0;
   }
+  .found-icon {
+    max-width: 260px;
+  }
   .contact {
     align-items: center;
     display: flex;
@@ -447,6 +478,27 @@ footer {
   }
   .start-title {
     font-size: 38px;
+  }
+  .work-title {
+    font-size: 40px;
+    height: 102px;
+  }
+  .work-photo {
+    height: 200px;
+    object-position: -40px;
+  }
+  .card-title {
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+  }
+  .card-text {
+    text-align: center;
+  }
+  .work-button {
+    display: block;
+    margin: 0 auto;
+    height: 60px;
   }
   #start a {
     font-size: 30px;
